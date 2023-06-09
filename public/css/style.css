@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.header-main {
+    height: 95px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    padding-top: 28px;
+    border-bottom: 0.1px solid rgb(221, 220, 220);
+}
+
+.header-shadow {
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    background-color: rgb(221, 220, 220);
+    z-index: -999999;
+    top: 0;
+    left: 0%;
+    filter: blur(10px);
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+}
+
+.about-us-project-header, .statistic-header, .get-tested-header, .recomendation-header {
+    line-height: 40px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    transition: 0.2s color;
+}
+
+.about-us-project-header:hover, .statistic-header:hover, .get-tested-header:hover, .recomendation-header:hover {
+    color: rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+
+.about-our-project {
+    margin-top: 240px;
+}
+
+.about-our-project-description {
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 50px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.about-our-project-description .head {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+#circle {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    left: -18%;
+    top: 0;
+    z-index: -10000;
+    background-color: rgb(220, 220, 220);
+    border-radius: 50%;
+}
+
+.statistic-project {
+    margin-top: 240px;
+}
+
+.statistic-description {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.statistic-object {
+    margin-top: 90px;
+    width: 900px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 120px;
+}
+
+.statistic-full-object {
+    margin-top: 50px;
+}
+
+.statistic-object ul {
+    list-style: none;
+}
+
+.statistic-object ul li:before {
+    content: "►";
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: rgb(0, 114, 207);
+}
+
+#circle2 {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    right: -10%;
+    top: 100%;
+    z-index: -10000;
+    background-color: rgb(220, 220, 220);
+    transform: rotate(45deg);
+    border-radius: 15%;
+}
+
+.join-test-main {
+    margin-top: 250px;
+    background: rgb(179,176,176);
+background: radial-gradient(circle, rgba(179,176,176,1) 0%, rgba(98,124,156,1) 100%);
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.join-test-description {
+    margin-top: 115px;
+}
+
+.join-test-description {
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.join-test-description .test-active {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.join-test-description button {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid white;
+    background: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-tests {
+    margin-top: 100px;
+}
+
+.test-descriptions {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.test-instruction {
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.test-main {
+    margin-top: 100px;
+}
+
+.card-padding {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 15px;
+}
+
+.options-select {
+    transform: scale(1.5, 1.5);
+    background-color: rgb(57, 59, 59);
+    cursor: pointer;
+}
+
+.images-statistic {
+    text-align: center;
+}
+
+.descriptions-statistic {
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.recomendation-description {
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.recomendate-header {
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.background-card {
+    padding: 30px;
+}
+
+.recomendation-card {
+    margin-top: 50px;
+}
+
+.descriptions-card {
+    text-align: justify;
+}
+.descriptions-card span {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.background-card {
+    background: rgb(179,176,176);
+    background: radial-gradient(circle, rgba(179,176,176,1) 0%, rgba(98,124,156,1) 100%);
+    border: none;
+    margin-top: 20px;
+}
+
+.main-result-test {
+    margin-top: 50px;
+    text-align: justify;
+}
+.main-result-test h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.main-result-test span {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-shadow {
+        width: 100%;
+    }
+    .header-main {
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .class-ing {
+        display: none;
+    }
+    .adaptive-image {
+        width: 450px;
+        height: 300px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .header-text {
+        flex-direction: column;
+        gap: 0px;
+    }
+    #circle {
+        display: none;
+    }
+    #circle2 {
+        display: none;
+    }
+    .header-main {
+        height: 200px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    span {
+        font-size: 15px;
+    }
+    img {
+        text-align: center;
+    }
+    .class-ing {
+        display: none;
+    }
+    .about-our-project-description .head {
+        text-align: left;
+    }
+    .adaptive-image {
+        width: 350px;
+        height: 250px;
+        text-align: center;
+    }
+
+    .descriptions-card span {
+        font-size: 15px;
+    }
+
+    .about-our-project-description .head {
+        font-size: 25px;
+    }
+    .statistic-description span {
+        font-size: 25px;
+    }
+    .recomendate-header span {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-text {
+        flex-direction: column;
+        gap: 0px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .header-main {
+        height: inherit;
+    }
+    #circle {
+        display: none;
+    }
+    #circle2 {
+        display: none;
+    }
+}
+
